@@ -1,7 +1,0 @@
-src/
-test/
-node_modules/
-.editorconfig
-tsconfig.json
-tslint.json
-yarn.lock
