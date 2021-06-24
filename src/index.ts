@@ -12,7 +12,7 @@ const errorHandler = (err: any) => {
 export default class Sentry extends TransportStream {
   protected name: string;
   protected tags: { [s: string]: any };
-  protected sentryClient: typeof sentry;
+  public sentryClient: typeof sentry;
   protected levelsMap: any;
 
   constructor(opts: any) {

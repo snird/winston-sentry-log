@@ -1,6 +1,6 @@
 {
   "name": "winston-sentry-log",
-  "version": "1.0.22",
+  "version": "1.1.0",
   "description": "Winston transport for @Sentry/node",
   "main": "dist/index.js",
   "author": "Francisco Sales",
@@ -25,12 +25,12 @@
     "start": "node dist/index.js"
   },
   "engines": {
-    "node": ">= 6.4.0"
+    "node": ">= 14.0.0"
   },
   "dependencies": {
-    "@sentry/node": "5.20.1",
+    "@sentry/node": "6.7.2",
     "lodash": "4.17.21",
-    "winston-transport": "4.3.0"
+    "winston-transport": "4.4.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.121",
@@ -40,7 +40,7 @@
     "tslint": "^5.13.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.3.3333",
-    "winston": "^3.2.1"
+    "typescript": "^3.9.10",
+    "winston": "^3.3.3"
   }
 }
