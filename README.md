@@ -1,6 +1,6 @@
 # winston-sentry-log
 
-[Sentry](https://sentry.io) transport for the [winston](https://github.com/winstonjs/winston) v3 logger using [@sentry/node](https://github.com/getsentry/sentry-javascript).
+[Sentry](https://sentry.io) transport for the [winston](https://github.com/winstonjs/winston) v3 logger using [@sentry/node](https://github.com/getsentry/sentry-javascript)
 
 ## Index
 
